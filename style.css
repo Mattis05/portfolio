@@ -1,16 +1,13 @@
 *{
     margin : 0;
     padding: 0;
-    box-sizing: border-box;
 }
 /*Navigationsbar*/
 .naviagtion{
     display: flex;
     justify-content: center;
     background-color: grey;
-    align-items: center;
-    position: sticky;
-    top: 0;
+
 }
 .naviagtion a {
     float: left;
@@ -25,6 +22,7 @@
     color: white;
 }
 /*Homescreen*/
+
 #homescreen{
     display: flex;
     flex-direction: column;
@@ -36,7 +34,6 @@
 #homescreen::before{
 
     top :0;
-    left: 0;
     content: "";
     position: absolute;
     height: 700px;
@@ -44,4 +41,102 @@
     z-index: -1;
     opacity: .8;
     width: 100%;
+}
+
+
+.homescr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    top: 30%;
+    right: 10%;
+
+}
+.header{
+    text-align: center;
+    margin: 10px 0px
+}
+
+
+
+
+
+/* https://www.youtube.com/watch?v=znqUwx0b0HI referenz*/
+.video{
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+    z-index: -1;
+}
+@media (min-aspect-ratio: 16/9) {
+    .video{
+        width: 80%;
+        height: auto;
+        top: 80%;
+    }
+
+}
+@media (max-aspect-ratio: 16/9) {
+    .video{
+        width: 10%;
+        height: 100%;
+    }
+
+}
+/* About*/
+#about{
+    display: flex;
+    flex-direction: column;
+}
+
+.headerabt{
+    text-align: center;
+    margin: 1500px 0px
+}
+.pabt{
+    text-align: left;
+
+    margin: -1450px 10px
+
+}
+/* Künstler*/
+.headerkuenstler{
+    text-align: left;
+    margin: 1600px 10px
+}
+.headercenter{
+    margin-left: 30px;
+
+}
+.headercenter3{
+    margin-left: 80px;
+    margin-top: 10px;
+
+}
+.headercenter2{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.bildrechts{
+    float:right;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+/* Werke*/
+.headerwerke{
+    text-align: left;
+    margin: -1500px 10px
+
+}
+/* Galerie */
+.headergalerie{
+    text-align: left;
+    margin: 1550px 10px
+
+}
+.headergalerie2{
+    text-align: center;
+    margin-top: 5000px;
+
 }
