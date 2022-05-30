@@ -2,67 +2,46 @@
     margin : 0;
     padding: 0;
 }
+body{
+font-family: "Arial Black";
+}
 /*Navigationsbar*/
 .naviagtion{
-    display: flex;
-    justify-content: center;
     background-color: grey;
     position: fixed;
 }
 .naviagtion a {
-    float: left;
+    font-size: 20px;
     color: #f2f2f2;
-    text-align: center;
-    padding: 14px 24px;
+    float: left;
+    padding: 10px 26px;
     text-decoration: none;
-    font-size: 17px;
-
 }
 .naviagtion a:hover {
     background-color: #000000;
-    color: white;
 }
 /*Homescreen*/
 
 #homescreen{
-    display: flex;
-    flex-direction: column;
     height: 100px ;
-    justify-content: center;
-    align-items: center;
     background-color: grey;
 }
 #homescreen::before{
-
-    top :0;
+    background-image: url("test.jpg");
+    height: 700px;
     content: "";
     position: absolute;
-    height: 700px;
-    background-image: url("test.jpg");
+    width: 100%;
     z-index: -1;
     opacity: .8;
-    width: 100%;
 }
-
-
 .homescr{
+    color: white;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    color: white;
-    top: 30%;
-    right: 10%;
 
 }
-.header{
-    text-align: center;
-    margin: 10px 0px;
-}
-
-
-
-
-
 /* https://www.youtube.com/watch?v=znqUwx0b0HI referenz*/
 .video{
     position: absolute;
@@ -122,6 +101,7 @@
     margin-left: 30px;
     margin-top: 15px;
     padding-left: 10px;
+
 }
 .bildrechts{
     float:right;
@@ -144,6 +124,7 @@
 .headergalerie2{
     text-align: center;
     margin-top: 1600px;
+    text-decoration: none;
 
 }
 
