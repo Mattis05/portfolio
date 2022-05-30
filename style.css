@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     background-color: grey;
-
+    position: fixed;
 }
 .naviagtion a {
     float: left;
@@ -16,6 +16,7 @@
     padding: 14px 24px;
     text-decoration: none;
     font-size: 17px;
+
 }
 .naviagtion a:hover {
     background-color: #000000;
@@ -48,14 +49,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    color: white;
     top: 30%;
     right: 10%;
 
 }
 .header{
     text-align: center;
-    margin: 10px 0px
+    margin: 10px 0px;
 }
 
 
@@ -85,38 +86,42 @@
 
 }
 /* About*/
-#about{
-    display: flex;
-    flex-direction: column;
-}
 
 .headerabt{
     text-align: center;
-    margin: 1500px 0px
+    margin: 1550px 0px;
+    border-style: outset;
 }
 .pabt{
     text-align: left;
-
-    margin: -1450px 10px
-
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: -1450px 10px;
+    line-height: 1.4;
+    word-spacing: 4px;
 }
-/* Künstler*/
+
+
+/* KÃ¼nstler*/
 .headerkuenstler{
     text-align: left;
-    margin: 1600px 10px
+    margin: 1600px 10px;
+    border-style: inset;
+    padding-left: 10px;
 }
 .headercenter{
     margin-left: 30px;
-
+    padding-left: 10px;
 }
 .headercenter3{
     margin-left: 80px;
     margin-top: 10px;
-
+    padding-left: 10px;
 }
 .headercenter2{
     margin-left: 30px;
     margin-top: 15px;
+    padding-left: 10px;
 }
 .bildrechts{
     float:right;
@@ -126,17 +131,22 @@
 /* Werke*/
 .headerwerke{
     text-align: left;
-    margin: -1500px 10px
-
+    margin: -1500px 10px;
+    border-style: inset;
+    padding-left: 10px;
 }
 /* Galerie */
 .headergalerie{
     text-align: left;
-    margin: 1550px 10px
+    margin: 1600px 10px
 
 }
 .headergalerie2{
     text-align: center;
-    margin-top: 5000px;
+    margin-top: 1600px;
 
+}
+
+.test{
+    border-style: outset;
 }
